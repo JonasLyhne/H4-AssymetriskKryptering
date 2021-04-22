@@ -1,0 +1,9 @@
+﻿<Application x:Class="AsymmetriskKryptering.Sender.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AsymmetriskKryptering.Sender.WPF"
+             StartupUri="View/RSASenderWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
