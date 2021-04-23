@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AsymmetriskKryptering.Receiver.WPF/1.0.0": {
+        "dependencies": {
+          "AsymmetriskKryptering.RsaEncryption": "1.0.0"
+        },
+        "runtime": {
+          "AsymmetriskKryptering.Receiver.WPF.dll": {}
+        }
+      },
+      "AsymmetriskKryptering.RsaEncryption/1.0.0": {
+        "runtime": {
+          "AsymmetriskKryptering.RsaEncryption.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AsymmetriskKryptering.Receiver.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AsymmetriskKryptering.RsaEncryption/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\H4\AsymmetriskKtyptering\AsymmetriskKryptering.Sender.WPF\obj\Debug\netcoreapp3.1\
+C:\H4\AsymmetriskKtyptering\Repo\H4-AssymetriskKryptering\AsymmetriskKryptering.Sender.WPF\obj\Debug\netcoreapp3.1\
 AsymmetriskKryptering.Sender.WPF
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\H4\AsymmetriskKtyptering\AsymmetriskKryptering.Sender.WPF\App.xaml
-21938637399
+C:\H4\AsymmetriskKtyptering\Repo\H4-AssymetriskKryptering\AsymmetriskKryptering.Sender.WPF\App.xaml
+1531592058
 
-7-172478559
-193165459882
-MainWindow.xaml;View\RSASenderWindow.xaml;
+5263751786
+193416981591
+View\RSASenderWindow.xaml;
 
-False
+True
 

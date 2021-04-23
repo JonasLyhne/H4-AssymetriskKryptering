@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj": {}
+    "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj": {}
   },
   "projects": {
-    "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj": {
+    "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj",
+        "projectUniqueName": "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj",
         "projectName": "AsymmetriskKryptering.RsaEncryption",
-        "projectPath": "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj",
+        "projectPath": "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj",
         "packagesPath": "C:\\Users\\joi.NISPORTAL\\.nuget\\packages\\",
-        "outputPath": "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.RsaEncryption\\obj\\",
+        "outputPath": "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.RsaEncryption\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

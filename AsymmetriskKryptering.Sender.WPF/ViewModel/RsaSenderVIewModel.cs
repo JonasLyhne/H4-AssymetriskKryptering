@@ -15,12 +15,12 @@ namespace AsymmetriskKryptering.Sender.WPF.ViewModel
         private string messageToEncrypt;
         private string encryptedMessageAsString;
 
-        private string modolus;
+        private string modulus;
 
-        public string Modolus
+        public string Modulus
         {
-            get { return modolus; }
-            set { modolus = value; OnPropertyChanged(nameof(Modolus)); }
+            get { return modulus; }
+            set { modulus = value; OnPropertyChanged(nameof(Modulus)); }
         }
 
 
@@ -41,7 +41,7 @@ namespace AsymmetriskKryptering.Sender.WPF.ViewModel
         public string Exponent
         {
             get { return exponent; }
-            set { exponent = value; }
+            set { exponent = value; OnPropertyChanged(nameof(Exponent)); }
         }
 
 
@@ -55,15 +55,12 @@ namespace AsymmetriskKryptering.Sender.WPF.ViewModel
         {
             Encrypt = new DelegateCommand(EncryptMessage);
             rsaEncryptor = new RsaEncryptor();
-            Modolus = rsaEncryptor.Modolus;
-            Exponent = rsaEncryptor.Exponent;
         }
 
         private void EncryptMessage(object obj)
         {
-            var param = rsaEncryptor.AssignKey();
-            var encryptedMessage = rsaEncryptor.Encrypt(Encoding.UTF8.GetBytes(messageToEncrypt));
-            EncryptedMessageAsString = BitConverter.ToString(encryptedMessage);
+            var encryptedMessage = rsaEncryptor.Encrypt(Encoding.UTF8.GetBytes(messageToEncrypt), Convert.FromBase64String(Modulus), Convert.FromBase64String(Exponent));
+            EncryptedMessageAsString = Convert.ToBase64String(encryptedMessage);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

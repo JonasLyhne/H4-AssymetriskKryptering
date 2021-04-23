@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.Sender.WPF\\AsymmetriskKryptering.Sender.WPF.csproj",
+      "projectUniqueName": "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.Sender.WPF\\AsymmetriskKryptering.Sender.WPF.csproj",
       "projectName": "AsymmetriskKryptering.Sender.WPF",
-      "projectPath": "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.Sender.WPF\\AsymmetriskKryptering.Sender.WPF.csproj",
+      "projectPath": "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.Sender.WPF\\AsymmetriskKryptering.Sender.WPF.csproj",
       "packagesPath": "C:\\Users\\joi.NISPORTAL\\.nuget\\packages\\",
-      "outputPath": "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.Sender.WPF\\obj\\",
+      "outputPath": "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.Sender.WPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,8 +58,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj": {
-              "projectPath": "C:\\H4\\AsymmetriskKtyptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj"
+            "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj": {
+              "projectPath": "C:\\H4\\AsymmetriskKtyptering\\Repo\\H4-AssymetriskKryptering\\AsymmetriskKryptering.RsaEncryption\\AsymmetriskKryptering.RsaEncryption.csproj"
             }
           }
         }

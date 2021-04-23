@@ -21,21 +21,21 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="230"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.Column="0" Text="Public data" Margin="0,0,35,0"/>
         <TextBlock Grid.Row="1" Grid.Column="0" Text="Exponent:"  Margin="4" />
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="Modolus:"  Margin="4"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Modulus:"  Margin="4"/>
         <TextBlock Grid.Row="3" Grid.Column="0" Text="Plaintext:" Margin="4" />
         <TextBlock Grid.Row="5" Grid.Column="0" Text="Cipherbytes:"  Margin="4"/>
 
-        <TextBox x:Name="exponentTextBox" Text="{Binding Path=Modolus}" Grid.Row="1" Grid.Column="1" Margin="4" MinWidth="250" />
-        <TextBox x:Name="ModulusTextBox" Grid.Row="2" Grid.Column="1" Text="{Binding Path=Exponent}" Margin="4" />
-        <TextBox x:Name="PlaintextTextBox" Text="{ Binding Path=MessageToEncrypt }" Grid.Row="3" Grid.Column="1" Margin="4" />
-        <TextBox x:Name="Cipherbytes" Grid.Row="5" Grid.Column="1" Margin="4" Text="{ Binding Path=EncryptedMessageAsString }" />
-        <Button x:Name="encryptMessageButton" Grid.Row="4" Grid.Column="1" Margin="4" Command="{Binding Encrypt}" Content="Encrypt" />
+        <TextBox x:Name="exponentTextBox" Text="{Binding Path=Exponent}" Grid.Row="1" Grid.Column="1" Margin="4" MaxWidth="250" />
+        <TextBox x:Name="ModulusTextBox" Grid.Row="2" Grid.Column="1" Text="{Binding Path=Modulus}" Margin="4" MaxWidth="250"/>
+        <TextBox x:Name="PlaintextTextBox" Text="{ Binding Path=MessageToEncrypt }" Grid.Row="3" Grid.Column="1" Margin="4" MaxWidth="250" />
+        <TextBox x:Name="Cipherbytes" Grid.Row="5" Grid.Column="1" Margin="4" Text="{ Binding Path=EncryptedMessageAsString }" MaxWidth="250" />
+        <Button x:Name="encryptMessageButton" Grid.Row="4" Grid.Column="1" Margin="4" Command="{Binding Encrypt}" Content="Encrypt" MaxWidth="100" />
 
     </Grid>
 </Window>
